@@ -1,0 +1,27 @@
+{
+  "name": "blockscandl",
+  "version": "1.0.0",
+  "description": "Smart contract source code and ABI downloader for block explorers such as Etherscan, BscScan, FTMScan, or those similar to them.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErbaZZ/blockscandl.git"
+  },
+  "author": "ErbaZZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErbaZZ/blockscandl/issues"
+  },
+  "bin": {
+    "blockscandl": "src/index.js"
+  },
+  "homepage": "https://github.com/ErbaZZ/blockscandl#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "fs-extra": "^10.0.0"
+  }
+}
