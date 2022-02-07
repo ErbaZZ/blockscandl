@@ -28,6 +28,8 @@ async function main() {
 
     // ABI
     await fse.outputFile(`${process.cwd()}/output/${contractName}/${contractName}.json`, $('#js-copytextarea2').text());
+
+    console.log(`${fileNames.length - 1} contract and 1 ABI files written to ${process.cwd()}/output/${contractName}`);
 }
 
 try {
