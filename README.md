@@ -1,4 +1,5 @@
 # BlockScanDl
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/erbazz/blockscandl/issues) [![npm version](https://badge.fury.io/js/blockscandl.svg)](https://www.npmjs.com/package/blockscandl)
 
 Smart contract source code and ABI downloader for block explorers such as Etherscan, BscScan, FTMScan, or those similar to them.
 
