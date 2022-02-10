@@ -33,7 +33,7 @@ async function main() {
         const sourceCode = $('#editor').text();
         await fse.outputFile(`${process.cwd()}/output/${contractName}/${contractName}.sol`, sourceCode);
     } else { // Multiple Contracts
-        const fileRegex = /File (\d+) of \d+ : ([a-zA-Z0-9-_]+\.sol)/;
+        const fileRegex = /File (\d+) of \d+\s?: ([a-zA-Z0-9-_]+\.sol)/;
         for (let i = 0; i < fileNames.length - 1; i++) {
             const [, id, fileName] = fileNames[i].children[0].data.match(fileRegex);
             const sourceCode = $(`#editor${id}`).text();
