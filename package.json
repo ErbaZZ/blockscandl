@@ -1,6 +1,6 @@
 {
   "name": "blockscandl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Smart contract source code and ABI downloader for block explorers such as Etherscan, BscScan, FTMScan, or those similar to them.",
   "main": "src/index.js",
   "scripts": {
